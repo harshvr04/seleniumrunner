@@ -41,4 +41,4 @@ services:
         - HUB_HOST=hub
         - MODULE=book-flight-module.xml
       volumes:
-        - ./output/search-result:/usr/share/seleniumdocker/test-output
+        - ./output/book-result:/usr/share/seleniumdocker/test-output
